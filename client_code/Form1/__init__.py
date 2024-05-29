@@ -15,8 +15,10 @@ class Form1(Form1Template):
 
   def text_box_1_change(self, **event_args):
     """This method is called when the text in this text box is edited"""
-    if self.counter>self.oldcounter):
-    self.text_box_2.text=str(self.counter)
+    if )self.counter>self.oldcounter):
+      self.text_box_2.text=self.text_box_1.text+str(self.counter)
+
+    self.old
    
     
     pass
